@@ -1,6 +1,7 @@
 Overview
 
 This AngularJS controller (HomeCtrl.js) manages a fitness or gym membership interface. It provides functionalities for:
+
 	•	Viewing member data
 	•	Adding new members
 	•	Logging daily workouts
@@ -30,20 +31,24 @@ Records attendance for a selected member (POST /addAttendance).
 5. UI Menu Switching
 
 Toggles between:
+
 	•	Member Registration
 	•	Workout Review
 	•	Attendance Management
 
 Uses jQuery to control the visibility of different sections.
 
-Setup Instructions
+Setup Instructions:
+
 	1.	Include this controller in your AngularJS app.
 	2.	Ensure jQuery is included in your HTML since this controller uses jQuery for DOM manipulation.
 	3.	Make sure the backend API routes (/memberData, /addMember, /addDailyWorkout, /addAttendance) are implemented.
 
-Dependencies
+Dependencies:
+
 	•	AngularJS
 	•	jQuery
 
 Author
+
 Bhavitha
